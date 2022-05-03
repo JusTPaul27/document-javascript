@@ -155,7 +155,7 @@ function showStudentsByAge() {
     
     studentsCopy.sort(compareStudentsByAge)
 
-    createStudentsListHtml(studentsCopy);
+    createStudentsListHtml(studentsCopy );
 }
 
     function compareStudentsByAge(stud1, stud2) {
